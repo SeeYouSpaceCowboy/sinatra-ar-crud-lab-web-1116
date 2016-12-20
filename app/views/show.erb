@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/posts.css">
+    <link rel="stylesheet" href="/stylesheets/center.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="" action="/posts/<%=@post.id%>" method="post">
+        <input id="hidden" type="hidden" name="_method" value="delete">
+        <div class="posts">
+          <p><%=@post.name%></p>
+          <p><%=@post.content%></p>
+          <button type="submit">delete</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

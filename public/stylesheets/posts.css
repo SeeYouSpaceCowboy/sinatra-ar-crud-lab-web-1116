@@ -1,0 +1,28 @@
+.posts {
+  border-style: solid;
+  border-width: 0.1em;
+  padding: .5em;
+  margin: .5em;
+}
+
+h1 {
+  font-family: menlo;
+}
+
+#user_post {
+  font-weight: bold;
+}
+
+p {
+  font-family: menlo;
+  font-size: 0.75em;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    font-family: menlo;
+}
